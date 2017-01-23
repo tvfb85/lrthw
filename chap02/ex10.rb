@@ -49,3 +49,8 @@ To see if the \"escape sequences\" are fine.
 """
 
 puts packing_list_two
+
+# practice with escape sequences and format strings
+combination = "#{packing_list_two}" + "\nI think I made it rhyme!"
+
+puts combination
