@@ -24,9 +24,15 @@ txt_again = close(file_again)
 
 # notes
 # commands == functions
+
 # running $stdin.gets.chomp with using ARGV throws an error on cli
+
 # syntax for opening file in irb is
   # txt = File.open("ex15_sample.txt")
   # puts txt.read()
 
-  
+# close - closes the file, like File -> Save... in your editor
+# read - reads the contents of the file, the result can be saved in a variable
+# readline - reads just one line of file
+# truncate - empties the file, use with care
+# write('stuff') - takes a string parameter to write to a file
