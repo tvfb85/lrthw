@@ -59,3 +59,7 @@ chocolates_in_fridge(2**2, 4)
 chocolates_in_fridge(tim_ate * vicky_ate, total - 6)
 
 chocolates_in_fridge(10, nil)
+
+puts "How many did you eat???"
+user = gets.chomp.to_i
+chocolates_in_fridge(user, total - user)
