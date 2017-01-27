@@ -1,6 +1,6 @@
 
 puts "Let's practice everything."
-puts 'You\'d need to know \'bout excapes with \\ that do \n newlines and \t tabes.'
+puts 'You\'d need to know \'bout excapes with \\ that do \n newlines and \t tabs.'
 
 # the <<END is a "heredoc". It is used to create a multi-line string.
 	# Start with << and an all CAPS word
