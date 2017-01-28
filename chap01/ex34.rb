@@ -37,7 +37,7 @@ puts "The fourth food is at 3 and is 'noodles'."
 puts "The fifth food is at 4 and is 'salad'."
 puts "The sixth food is at 5 and is 'cakes'."
 
-puts food[1] == "curry"
-puts food[0] != "pizza"
+puts food[1] == "curry" # =>  true
+puts food[0] != "pizza" # =>  true
 
 # avoid writings by "Dijkstra"!!
