@@ -35,8 +35,8 @@ def singer
 	puts "In the parallel universe, you have a massive hit in a band called: "
 	puts "Enter band name: "
 	band = $stdin.gets.chomp
-	puts "Sorry, I'd forgotten, you guys were so much of a one-hit wonder."
-	puts "Your self-titled album, '#{@userName}', never made it big, and your drummer left and your bassist became a primary school teacher."
+	puts "Sorry, I'd forgotten #{band} - you guys were so much of a one-hit wonder."
+	puts "Your self-titled album, '#{@userName}', never made it big, and your drummer left #{band} and your bassist became a primary school teacher."
 	endGame("You got depressed, turned to drugs and you're actually reading your obituary in the paper. Oh no!")
 end
 
@@ -45,7 +45,7 @@ def radioPresenter
 	puts "#{@userName} became a household name, and 15 million people around the globe tune into your radio show."
 	puts "You put this power to great use. What was it?"
 	puts "1. Funded radio shows in developing countries."
-	puts "2. Build a cult-following against Donald Trump."
+	puts "2. You build a growing movement against Donald Trump."
 	radioChoice = $stdin.gets.chomp
 
 	if radioChoice == "1"
@@ -76,7 +76,7 @@ def readPaper
 		movieStar
 	elsif talent == "2"
 		singer
-	elsif talent = "3"
+	elsif talent == "3"
 		radioPresenter
 	else
 		puts endGame("Uh, keep dreaming - THAT'S never gonna happen")	
@@ -104,7 +104,7 @@ def start
 
 	puts "#{@userName}, the year is 2019. You have woken up in a parallel universe." 
 	puts "Everything around you looks the same, but something doesn't feel quite right..."
-	puts "As you slide your feet into your slippers, you notice a newpaper on the floor, it's dated 'January 27, 2019.' The future!"
+	puts "As you slide your feet into your slippers, you notice a newspaper on the floor, it's dated 'January 27, 2019.' The future!"
 	puts "As you pick it up, you notice your face on the front page. What do you do?"
 
 	puts "1. Read on. You're curious."
